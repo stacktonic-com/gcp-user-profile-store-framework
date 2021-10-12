@@ -1,7 +1,7 @@
 /**
  * Author    Krisjan Oldekamp / Stacktonic.com
  * Email     krisjan@stacktonic.com
- * Article   https://stacktonic.com/article/create-a-fast-user-profile-and-recommender-service-using-big-query-redis-and-gtm-server
+ * Article   https://stacktonic.com/article/create-a-user-profile-and-recommender-service-using-big-query-redis-and-gtm-server
  * Based on  https://futurice.com/blog/bigquery-to-memorystore
  */
 

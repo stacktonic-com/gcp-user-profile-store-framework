@@ -1,7 +1,7 @@
 /**
  * Author    Krisjan Oldekamp / Stacktonic.com
  * Email     krisjan@stacktonic.com
- * Article   https://stacktonic.com/article/
+ * Article   https://stacktonic.com/article/create-a-user-profile-and-recommender-service-using-big-query-redis-and-gtm-server
  */
 
 'use strict'
