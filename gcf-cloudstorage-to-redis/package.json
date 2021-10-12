@@ -1,0 +1,9 @@
+{
+    "name": "gcf-cloudstorage-to-redis",
+    "version": "1.0.0",
+    "dependencies": {
+        "@google-cloud/storage": "^5.14.5",
+        "ioredis": "^4.27.10",
+        "split": "^1.0.1"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "gcf-http-serve-from-redis",
+    "version": "1.0.0",
+    "dependencies": {
+        "ioredis": "^4.27.10"
+    }
+}

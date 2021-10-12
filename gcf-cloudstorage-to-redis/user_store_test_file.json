@@ -1,0 +1,4 @@
+{"key": "123", "audience_1": "1", "audience_2": "1", "ab_test_1": "3" }
+{"key": "234", "audience_1": "0", "audience_2": "1", "ab_test_2": "2" }
+{"key": "456", "audience_1": "1", "audience_2": "0", "ab_test_3": "1" }
+{"key": "777", "audience_1": "1", "audience_2": "0", "ab_test_4": "3" }
