@@ -62,15 +62,14 @@ exports.loadCloudStorageToRedis = async(info, context) => {
           console.log(`Successfully written ${keysWritten} keys to Memcache Redis.`);
 
           // Move file to processed folder
-          bucket.file(info.name).move(FILE_PATH_PROCESSED + '/' + fileName)
-          console.log(`File moved to: ${info.bucket}/${FILE_PATH_PROCESSED}/${fileName}`)
-
-          resolve();
+          bucket.file(info.name).move(FILE_PATH_PROCESSED + '/' + fileName);
+          console.log(`File moved to: ${info.bucket}/${FILE_PATH_PROCESSED}/${fileName}`);
         })
         .on('error', error => reject(error));
     
     } catch(e) {
-      console.log(`Error importing ${fileName} to Redis: ${e}`)
+      console.log(`Error importing ${fileName} to Redis: ${e}`);
     }
+
   }
 };
